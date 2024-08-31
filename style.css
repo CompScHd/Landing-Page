@@ -5,7 +5,7 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin: 0 8%;
+    margin: 0 5%;
     background-color: aliceblue;
 }
 
@@ -48,7 +48,7 @@ border: 1px dashed orange;
 
 .right-space, .left-space{
     height: auto;
-    width: 8vw;
+    width: 10vw;
 }
 
 .middle-space {
@@ -82,7 +82,7 @@ a {
 }
 
 .top-content {
-    margin-top: 5%;
+    margin: 5% 0;
     display: flex;
     flex-direction: row;
     
@@ -106,11 +106,25 @@ a {
 
 
 .right-panel .img {
-    color: #909090;
+    color: #e40f0f;
     border: 5px solid #474bc9;
     height: 200px;
     width: 95%;
     background-color: #cacacaed;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.btn {
+    background: #119dd413;
+    margin-right: auto;
+    border-radius: 8px;
+    font-family: sans-serif, "Montserrat", sans-serif;
+    font-size: 12px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+  }
