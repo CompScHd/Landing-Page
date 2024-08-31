@@ -78,14 +78,14 @@ a {
     display: flex;
     justify-content: space-around;
     text-align: left;
-    margin-top: 2%;
-    
+    margin: 2% 0; 
 }
 
 .left-panel {
-    
+    margin-right: 20%;
 }
 
 .top-content img {
+    width: 100%;
     
 }
