@@ -6,7 +6,7 @@ body {
     flex-direction: column;
     text-align: center;
     margin: 0 5%;
-
+    background-color: black;
 }
 
 .main-text{
@@ -28,15 +28,20 @@ p {
 .Header-Logo {
 font-weight: 500;
 font-size: 24px;
-border: 1px dashed orange;
+
 
 }
 
 .framework {
     /* height: 30vh; */
     /* width: 100vw; */
-    border: 2px dotted; 
+    /* border: 2px dotted;  */
     
+}
+
+.framwork-wrap {
+    border: 2px solid;
+    background-color: white;
 }
 
 .top-container {
